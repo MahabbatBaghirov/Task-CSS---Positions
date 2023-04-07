@@ -1,0 +1,45 @@
+.box {
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+.box .img {
+    width: 400px;
+    height: 250px;
+}
+.box .img img {
+    width: 400px;
+    height: 250px;
+}
+.box .text {
+    width: 400px;
+    height: 170px;
+}
+.box .text p {
+    color: rgb(190,188,185);
+    font-family: Poppins;
+}
+.box .text h2 {
+    font-weight: 200;
+    font-size: 30px;
+}
+.box .text h4 {
+    font-weight: 300;
+    font-size: 17px ;
+}
+.box .texttwo {
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+.box .texttwo h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Poppins;
+}

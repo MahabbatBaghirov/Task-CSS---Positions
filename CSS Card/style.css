@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(54,151,219);
+}
+.box {
+    width: 300px;
+    height: 350px;
+    border: 8px solid rgb(165,168,168);
+    border-radius: 10px;
+    margin: 120px auto;
+    position: relative;
+}
+.box img {
+    width: 300px;
+    height: 350px;
+    opacity: 0.9;
+}
+.box .text {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    top: 65%;
+    left: calc(50% - 80px);
+    position: absolute;
+}
+.box .text h3 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.box .text p {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins;
+    font-weight: 300;
+}
+.box .icons {
+    width: 170px;
+    height: 32px;
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    top: 83%;
+    left: 23%;
+}
+.box .icons i {
+    width: 32px;
+    height: 32px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .btn {
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 110%;
+}
+.box .btn button {
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    color: rgb(120,144,147);
+}
+.box .figure {
+    width: 25px;
+    height: 15px;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-color: white;
+    position: absolute;
+    top: 102%;
+    left: calc(50% - 7.5px);
+}
